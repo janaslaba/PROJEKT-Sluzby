@@ -1,0 +1,96 @@
+html { box-sizing: border-box; }
+*, :after, :before { box-sizing: inherit; }
+
+/*
+pozadí #FAFAFA
+- nadpisy černá : #000000
+- odstavce šedá : #8B8B8B
+- tlačítko a čára : modrá: #407BFF
+- bílá: #FFFFFF
+*/
+
+h1,
+h2,
+p,
+li {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    font-size: 28px;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #407BFF;
+    
+}
+
+h2 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 300;
+    color: #8B8B8B;
+    line-height: 1.5;
+}
+
+body {
+    padding: 60px 20px;
+}
+
+.uvod img {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 0 70px;
+}
+
+li {
+    font-size: 14px;
+    font-weight: 400;
+    color: #8B8B8B;
+}
+
+ul {
+    padding-left: 0;
+}
+
+.uvod li {
+    list-style-type: none;
+    padding: 10px 30px;
+    border-radius: 15em;
+    margin: 20px auto;
+    text-align: center;
+    width: fit-content;
+  
+}
+
+.tlac1{
+    background-color: #407BFF;
+    color: white;
+}
+
+.tlac2 {
+    background-color: #8B8B8B;
+    color: black;
+}
+
+.sluzby li {
+    list-style-type: none;
+    margin-left: 30px;
+}
+
+.tlacitko {
+    display: flex;
+    border-radius: 1em;
+    box-shadow: 2px 2px 5px lightsteelblue;
+    margin: 20px;
+    padding: 20px;
+}
