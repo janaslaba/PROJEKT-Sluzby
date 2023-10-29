@@ -14,6 +14,11 @@ h2,
 p,
 li {
     font-family: 'Montserrat', sans-serif;
+}
+
+h1,
+h2,
+p {
     text-align: center;
 }
 
@@ -21,10 +26,8 @@ h1 {
     font-size: 28px;
     font-weight: 500;
     margin-top: 40px;
-    margin-bottom: 40px;
-    padding-bottom: 10px;
-    border-bottom: 2px solid #407BFF;
-    
+    margin-bottom: 10px;
+    padding-bottom: 10px;    
 }
 
 h2 {
@@ -39,10 +42,13 @@ p {
     font-weight: 300;
     color: #8B8B8B;
     line-height: 1.5;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 body {
     padding: 60px 20px;
+    margin: 0;
 }
 
 .uvod img {
@@ -51,6 +57,12 @@ body {
     justify-content: center;
     padding: 0 70px;
 }
+
+hr {
+    border: 1px solid #407BFF;
+    width: 60px;
+    
+  }
 
 li {
     font-size: 14px;
@@ -93,4 +105,35 @@ ul {
     box-shadow: 2px 2px 5px lightsteelblue;
     margin: 20px;
     padding: 20px;
+}
+
+@media screen and (min-width:640px) {
+    .kontejner1 {
+        display: flex;
+        justify-content: center;
+        column-gap: 20px;
+    }
+
+    .uvod li {
+        margin: 0;
+    }
+
+    .sluzby1,
+    .sluzby2 {
+        display: flex;
+        justify-content: space-between;
+        align-items: stretch;
+        margin: 40px 0;
+    }
+
+    .tlacitko {
+        flex-basis: calc((100%/3) - 20px);
+        display: block;
+        text-align: center;
+        margin: 0;
+    }
+
+    .tlacitko li {
+        margin: 20px 0 0 0;
+    }
 }
