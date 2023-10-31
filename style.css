@@ -144,11 +144,11 @@ ul {
         max-width: 1040px;
         margin-left: auto;
         margin-right: auto;
-        column-gap: 60px;
     }
         
     .uvod {
         display: flex;
+        column-gap: 60px;
     }
 
     .uvod .text {
